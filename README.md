@@ -2,7 +2,7 @@
 A simple HEX to UI/CGColor converter 
 
 
-## Hex tô UI/CGColor - automatic!
+
 [Hex tô UICGColor](https://heliherrera.github.io/Hex-TO-UI-CGColor/)
 
 ![](https://github.com/heliherrera/Hex-TO-UI-CGColor/blob/master/images/banner.png?raw=true)
