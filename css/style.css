@@ -226,7 +226,7 @@ p {
     width: 24px;
     height: 24px;
     }
-.alertBox {
-    left: 2%;
+#alertBox {
+    left: 15%;
     }
 }
