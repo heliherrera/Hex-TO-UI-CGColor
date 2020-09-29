@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo.svg" type="image/svg" sizes="16x16"> 
+    <title>HEX to CGColor</title>
+</head>
+<body onload="radioRefresh()">
+    <div class="container">
+        <img src="images/logo.svg" alt="">
+        <h1>Hex <span>TO</span> UI/CGColor</h1> 
+    </div>
+    <form name="form" class="form" onsubmit="return false">
+        <div class="input-color-container">
+            <input onchange="colorPicker()" type="color" class="input-color" id="myColor" value="#8E49FF" >
+        </div>
+        <input type="text" value="" id="input" class="input" placeholder="Color Hex" onfocus="this.value=''">
+        <div class="radio">
+            <input type="radio" id="colorTypeUnchecked2" name="myRadios" value="UIColor" autocomplete="off" checked="false"/>
+            <label for="colorChoice1">UIColor</label>
+            <input type="radio" id="colorTypeUnchecked" name="myRadios" value="CGColor" autocomplete="off" checked="false"/> 
+            <label for="colorChoice2">CGColor</label>
+        </div>
+        <button id="button" class="button">Convert</button>
+    </form>
+    <div class="">
+        <span class="" id="output">           
+        </span>        
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
